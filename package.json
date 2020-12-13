@@ -1,0 +1,29 @@
+{
+  "name": "uk.js",
+  "version": "1.0.0",
+  "description": "uk tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apporoad/uk.js.git"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apporoad/uk.js/issues"
+  },
+  "homepage": "https://github.com/apporoad/uk.js#readme",
+  "dependencies": {
+    "commander": "^6.2.0"
+  },
+  "bin": {
+    "ukEn": "./index.js",
+    "ukDe": "./index2.js"
+  }
+}
